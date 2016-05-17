@@ -1,0 +1,1 @@
+$.getJSON("https://geoip-db.com/json/geoip.php?jsonp=?").done(function(t){$("#country").html(t.country_name),$("#state").html(t.state),$("#city").html(t.city),$("#latitude").html(t.latitude),$("#longitude").html(t.longitude),$("#ip").html(t.IPv4)});

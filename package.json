@@ -1,0 +1,16 @@
+{
+  "name": "urbanapplication",
+  "version": "1.0.0",
+  "description": "Application that uses multiple API's to fetch JSON data from the backend and displays data in the webpage",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-uglify": "^1.5.3",
+    "gulp-util": "^3.0.7"
+  }
+}
